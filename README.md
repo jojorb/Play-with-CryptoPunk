@@ -1,4 +1,4 @@
-![name](url_img)
+![8639 on gimp](https://github.com/rmsrob/Play-with-CryptoPunk/blob/master/_draw/gimp_grid.png)
 
 # Play with CryptoPunk
 
