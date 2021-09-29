@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { CenterPunk } from './components/Styled';
+import PunkGrid from './components/PunkGrid';
 
 function App() {
+  console.group(`choose features:
+ - woman/man/ape/alien
+ - lipstick/hotLipstick
+ - rosyCheeks
+ - earring
+ - mole/spots
+ - cigarette/vape
+ - nohawk
+ - ClownEyes/EyesShadow
+ - clownNose/
+ - 3dglasses/BigShades/vr/eyepatch/hornedRimGlasses/eyemask
+ - /regularShades/nerdShades/classicShades/weldingGoogle
+ - silverChain/goldChain
+ - mediclMask/headband
+ `);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CenterPunk>
+      <PunkGrid
+        features={[
+          'woman',
+          'hotLipstick',
+          'nohawk',
+          'eyemask',
+          'vape',
+          'earring',
+          // 'weldingGoogle',
+          // 'nerdShades',
+          // 'mediclMask',
+          // 'headband',
+          'silverChain',
+          'rosyCheeks',
+        ]}
+      />
+    </CenterPunk>
   );
 }
 
